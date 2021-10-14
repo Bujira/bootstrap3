@@ -14,5 +14,10 @@ div.container-fluid {
 
 .sectionOne {
     background-color: #eceeef;
-    padding: 2em;
+    padding: 2rem;
+}
+
+.sectionTwo {
+    background-color: #cccccc;
+    padding: 2rem;
 }
