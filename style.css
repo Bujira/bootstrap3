@@ -21,3 +21,14 @@ div.container-fluid {
     background-color: #cccccc;
     padding: 2rem;
 }
+
+.buttonContainer {
+    margin-top: 20px;
+}
+
+button.sectionTwoBtn {
+    color: black;
+    background-color: rgb(255, 255, 50);
+    display: block;
+    margin: auto;
+}
