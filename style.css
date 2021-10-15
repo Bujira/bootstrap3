@@ -22,19 +22,81 @@
     padding: 2rem;
 }
 
-.buttonContainer {
-    margin-top: 20px;
+.sectionThree {
+    background-color: #eceeef;
+    padding: 2rem;
 }
 
-button.sectionTwoBtn {
+.buttonWrapper {
+    margin-top: 15px;
+}
+
+.buttonWrapper2 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+button.yellowBtn {
     color: black;
-    background-color: rgb(255, 255, 50);
+    background-color: rgb(255, 255, 100);
     display: block;
     margin: auto;
 }
 
-.modal-body img {
+button.yellowBtn2 {
+    color: black;
+    background-color: rgb(255, 255, 100);
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+.modal-body img.modal-img {
     width: 70%;
     display: block;
     margin: auto;
+}
+
+.modal-body form button {
+    color: black;
+    background-color: rgb(255, 255, 50);
+}
+
+.modalFormWrapper {
+    padding: 1rem;
+}
+
+.sectionThree img.tricks {
+    padding: 0.25rem;
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+/* --- Mobile --- */
+@media screen and (max-width: 680px) {
+    .jumbotron h1 {
+        font-size: 2.5rem;
+    }
+
+    .sectionTwo img.skull {
+        width: 70%;
+        display: block;
+        margin: auto;
+        
+    }
+
+    .sectionTwo img.pill {
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+
+    .modal-body img.modal-img {
+        width: 100%;
+    }
+
+    .sectionThree img.tricks {
+        width: 100%;
+    }
 }
