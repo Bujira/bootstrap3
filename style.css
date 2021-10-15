@@ -99,4 +99,8 @@ button.yellowBtn2 {
     .sectionThree img.tricks {
         width: 100%;
     }
+
+    button.yellowBtn2 {
+        width: 95%;
+    }
 }
