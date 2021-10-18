@@ -66,11 +66,30 @@ button.yellowBtn2 {
     padding: 1rem;
 }
 
+.sectionTwo img.skate {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+    margin: auto;
+}
+
+.sectionTwo img.pill {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+    margin: auto;
+}
+
 .sectionThree img.tricks {
     padding: 0.25rem;
     width: 70%;
     display: block;
     margin: auto;
+}
+
+.footer img.footerImg {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 /* --- Mobile --- */
@@ -79,11 +98,12 @@ button.yellowBtn2 {
         font-size: 2.5rem;
     }
 
-    .sectionTwo img.skull {
+    .sectionTwo img.skate {
         width: 70%;
         display: block;
         margin: auto;
-        
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 
     .sectionTwo img.pill {
