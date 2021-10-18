@@ -90,6 +90,16 @@ button.yellowBtn2 {
 .footer img.footerImg {
     padding-top: 1rem;
     padding-bottom: 1rem;
+    display: block;
+    margin: auto;
+}
+
+.fab {
+    margin: 10px;
+}
+
+.myIcon {
+    color: #eee;
 }
 
 /* --- Mobile --- */
